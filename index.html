@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hex Color Lighten/Darken Tool"/>
+    <link rel="apple-touch-icon" href="icon.png"/>
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Color Tool</title>
+</head>
+<body>
+    <h1>Lighten/Darken Color</h1>
+    <div class="input-container">
+        <label>Color (Hex)&nbsp;&nbsp;<span id="validity"></span></label>
+        <input id="color" type="text" name="color-code" placeholder="#000000" required/>
+    </div>
+    <div class="select-btn">
+        <p class="mode1">Lighten</p>
+        <div id="toggle" class="switch-bar">
+            <span class="switch"></span>
+        </div>
+        <p class="mode2">Darken</p>
+    </div>
+    <div class="slider">
+        <div class="slider-value">
+            <span id="span">100</span>
+        </div>
+        <div class="field">
+            <input id="input-slider" type="range" min="0" max="100" value="50" steps="1">
+        </div>
+    </div>
+    <p>Input</p>
+    <div id="input-color"></div>
+    <p>Altered - <span id="output"></span></p>
+    <div id="output-color"></div>
+</body>
+<script src="index.js"></script>
+</html>
