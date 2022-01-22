@@ -4,5 +4,5 @@
 - The resulting colour and it's hex code will appear in he bottom in real-time. 
 - Handy tool for adjusting the colour for design/developemnt purpose without going into the browser development tool.
 - Simple UI with custom input slider using vanilla CSS.
-> #### To learn how to code custom input slider using CSS & JavaScript visit the link below - 
-> https://medium.com/@athulsprakash/custom-input-slider-using-css-javascript-7030e0c3130e
+#### To learn how to code custom input slider using CSS & JavaScript visit the link below - 
+### https://medium.com/@athulsprakash/custom-input-slider-using-css-javascript-7030e0c3130e
